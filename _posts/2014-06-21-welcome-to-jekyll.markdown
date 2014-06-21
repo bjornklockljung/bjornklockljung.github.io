@@ -2,7 +2,6 @@
 layout: post
 title:  "Blogga med Jekyll!"
 date:   2014-06-21 13:14:54
-categories: jekyll update
 tags: intro n00b jekyll yaml github
 ---
 
