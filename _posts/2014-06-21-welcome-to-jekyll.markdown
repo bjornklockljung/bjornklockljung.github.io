@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Blogga med Jekyll!"
 date:   2014-06-21 13:14:54
 categories: jekyll update
+tags: intro n00b jekyll yaml github
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
@@ -22,3 +23,10 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
+
+<ul class="categories">
+   
+{% for tags in page.tags %}
+      <li>{{ tags }}</li>
+    {% endfor %}
+</ul>
